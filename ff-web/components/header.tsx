@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const Header = () => {
     return(
         <div className="bg-cobalt-blue">
@@ -8,11 +10,21 @@ export const Header = () => {
                 <img src="./fridayfreed.jpg" className="grid justify-right w-20 m-2 border border-black"/>
             <div className="flex items-center">
                 <div className="hidden ml-10 space-x-8 lg:block">
-                    <a href="#" className="text-base font-medium text-white hover:text-indigo-50"> Games I'm Playing </a>
+                    <Link href="#">
+                        <a className="text-base font-medium text-white hover:text-indigo-50">
+                            Games I'm Playing
+                        </a>
+                    </Link>
 
-                    <a href="#" className="text-base font-medium text-white hover:text-indigo-50"> DevLog </a>
+                    <Link href="/devlog">
+                        <a className="text-base font-medium text-white hover:text-indigo-50">
+                            Dev Log
+                        </a>
+                    </Link>
 
-                    <a href="#" className="text-base font-medium text-white hover:text-indigo-50"> Links </a>
+                    <a href="#" className="text-base font-medium text-white hover:text-indigo-50">
+                        Links
+                    </a>
                 </div>
             </div>
             </nav>
