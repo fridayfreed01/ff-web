@@ -4,9 +4,6 @@ export const Card = (props: any) => {
       key={props.title}
       className="flex flex-col flex-shrink-1 flex-wrap m-5 rounded-lg shadow-lg overflow-hidden"
     >
-      <div className="flex-shrink-0">
-        <img className="h-48 w-full object-cover" src={props.imageUrl} alt="" />
-      </div>
       <div className="flex-1 bg-blue p-6 flex flex-col justify-between">
         <div className="flex-1">
           <p className="text-sm font-medium text-white">
