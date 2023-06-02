@@ -2,7 +2,7 @@ export const Card = (props: any) => {
   return (
     <div
       key={props.title}
-      className="flex flex-col flex-shrink-1 flex-wrap m-5 rounded-lg shadow-lg overflow-hidden"
+      className="flex flex-col flex-shrink-1 flex-wrap m-5 w-1/4 rounded-lg shadow-lg overflow-hidden"
     >
       <div className="flex-1 bg-blue p-6 flex flex-col justify-between">
         <div className="flex-1">
