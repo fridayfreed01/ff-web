@@ -1,3 +1,3 @@
-import {IndexPage} from "../routes";
+import { IndexPage } from "../routes";
 
 export default IndexPage;

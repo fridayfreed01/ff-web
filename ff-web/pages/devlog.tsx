@@ -1,3 +1,3 @@
-import {DevLogPage} from "../routes/devlog";
+import { DevLogPage } from "../routes/devlog";
 
 export default DevLogPage;
