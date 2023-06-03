@@ -1,19 +1,15 @@
 import {Header} from "../components/header";
 import {Card} from "../components/card";
 import { Footer } from "../components/footer";
-import { About } from "../components/about";
 
 export const IndexPage = () => {
     return (
         <div>
             <Header/>
-            <div className="bg-cobalt-blue md:px-8 pb-8"></div>
-            <About/>
-            <div className="m-6">
-                <div className="flex justify-center text-2xl font-bold">
-                    Explore the page
+            <div className="p-6 w-full h-full bg-[#3a3a3a]">
+                <div className="flex justify-center text-2xl font-bold text-gray-300">
+                    Recent Posts
                 </div>
-                
             </div>
             <Footer/>
         </div>

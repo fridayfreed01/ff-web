@@ -1,16 +1,16 @@
 import {Header} from "../components/header";
 import {Card} from "../components/card";
+import { Footer } from "../components/footer";
 
 export const DevLogPage = () => {
     return (
         <div>
             <Header/>
-            <div className="bg-glossy-blue p-4 md:px-8 pb-8">
+            <div className="p-4 md:px-8 pb-8 w-full h-full bg-[#3a3a3a]">
                 <div className="p-4 md:px-8 pb-8">
-                    <div className="max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
                         <Card
                             title="Points and Purrs"
-                            imageUrl=""
+                            imageUrl="/sethpfp.jpg"
                             category={{ name: "Game Project", href: "#" }}
                             href="/pointsandpurrs"
                             description="A 2D game made with Unity for a Game Design project at UW Madison"
@@ -18,17 +18,17 @@ export const DevLogPage = () => {
                             date="2/1/2023"
                         />
                         <Card
-                            title="Fishing RPG (Name TBD)"
+                            title="Fishing Fantasy"
                             imageUrl=""
                             category={{ name: "Game Project", href: "#" }}
-                            href="/fishingrpg"
+                            href="/fishingfantasy"
                             description="A personal 2D game project made with Unity"
                             datetime=""
                             date="2/1/2023"
                         />
-                    </div>
                 </div>
             </div>
+            <Footer/>
         </div>
 
     );
