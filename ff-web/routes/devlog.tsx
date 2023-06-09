@@ -7,10 +7,10 @@ export const DevLogPage = () => {
     <div>
       <Header />
       <div className="p-4 md:px-8 pb-8 w-full h-full bg-[#3a3a3a]">
-        <div className="p-4 md:px-8 pb-8">
+        <div className="p-4 md:px-8 pb-8 flex">
           <Card
             title="Points and Purrs"
-            imageUrl="/sethpfp.jpg"
+            imageUrl="/PointsAndPurrs.png"
             category={{ name: "Game Project", href: "#" }}
             href="/pointsandpurrs"
             description="A 2D game made with Unity for a Game Design project at UW Madison"
@@ -25,6 +25,15 @@ export const DevLogPage = () => {
             description="A personal 2D game project made with Unity"
             datetime=""
             date="2/1/2023"
+          />
+          <Card
+            title=""
+            imageUrl=""
+            category={{ name: "Project", href: "#" }}
+            href="/"
+            description=""
+            datetime=""
+            date=""
           />
         </div>
       </div>

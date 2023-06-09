@@ -2,7 +2,7 @@ export const Card = (props: any) => {
   return (
     <div
       key={props.title}
-      className="flex flex-col flex-shrink-1 flex-wrap m-5 w-1/4 rounded-lg shadow-lg overflow-hidden bg-gradient-to-r from-blue-800 to-blue-900 border border-double border-gray-100"
+      className="flex flex-col flex-shrink-1 flex-wrap m-5 w-1/3 rounded-lg shadow-lg shadow-gray-800 overflow-hidden bg-gradient-to-r from-blue-800 to-blue-900 border border-double border-gray-100"
     >
       <div className="flex-1 bg-blue p-6 flex flex-col justify-between">
         <div className="flex-1">
@@ -13,7 +13,8 @@ export const Card = (props: any) => {
           </p>
           <a href={props.href} className="block mt-2">
             <p className="text-xl font-semibold text-gray-300">{props.title}</p>
-            <p className="mt-3 text-base text-gray-300">{props.description}</p>
+            <p className="my-3 text-base text-gray-300">{props.description}</p>
+            <img src={props.imageUrl} />
           </a>
         </div>
         <div className="mt-6 flex items-center">
