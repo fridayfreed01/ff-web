@@ -6,8 +6,8 @@ export const DevLogPage = () => {
   return (
     <div>
       <Header />
-      <div className="p-4 md:px-8 pb-8 w-full h-full bg-[#3a3a3a]">
-        <div className="p-4 md:px-8 pb-8 flex">
+      <div className="p-4 pb-4 w-full h-full bg-[#3a3a3a]">
+        <div className="p-4 lg:px-8 pb-8 flex lg:flex-row flex-col">
           <Card
             title="Points and Purrs"
             imageUrl="/PointsAndPurrs.png"
@@ -15,7 +15,7 @@ export const DevLogPage = () => {
             href="/pointsandpurrs"
             description="A 2D game made with Unity for a Game Design project at UW Madison"
             datetime=""
-            date="2/1/2023"
+            date="Updated 6/14/2023"
           />
           <Card
             title="Fishing Fantasy"
@@ -24,16 +24,16 @@ export const DevLogPage = () => {
             href="/fishingfantasy"
             description="A personal 2D game project made with Unity"
             datetime=""
-            date="2/1/2023"
+            date="Updated 6/14/2023"
           />
           <Card
-            title=""
+            title="Note Taking App"
             imageUrl=""
             category={{ name: "Project", href: "#" }}
-            href="/"
-            description=""
+            href="/note-taker"
+            description="A self-taught note taking app made with C# and MySQL"
             datetime=""
-            date=""
+            date="Updated 6/14/2023"
           />
         </div>
       </div>
