@@ -4,7 +4,7 @@ import { Header } from "../components/header";
 
 export const Games = () => {
   return (
-    <div>
+    <div className="flex flex-col h-screen">
       <Header />
       <div className="h-full w-full bg-[#3a3a3a]">
         <div className="p-4 lg:px-8 pb-8 flex lg:flex-row flex-col">

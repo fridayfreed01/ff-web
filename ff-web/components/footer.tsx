@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <div className="rounded border border-double border-gray-100 bg-cobalt-blue bg-cover bg-blend-multiply border-b-2 py-[8vh] text-gray-100 text-lg ">
+    <div className="rounded border border-double border-gray-100 bg-cobalt-blue bg-cover bg-blend-multiply border-b-2 py-[6vh] text-gray-100 text-lg ">
       <div className="mx-4 sm:text-center md:text-justify">
         Seth Freitag, fridayfreed.com, 2023
       </div>
