@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <div className="rounded bg-cobalt-blue border border-double shadow-xl border-gray-100">
+    <div className="rounded bg-cobalt-blue border border-double shadow-xl border-gray-100 sticky top-0">
       <nav className="relative max-w-7xl flex flex-row" aria-label="Top">
         <Link href="/">
           <a>
@@ -32,10 +32,10 @@ export const Header = () => {
             </Link>
 
             <a
-              href="#"
+              href="/resume"
               className="text-base font-medium text-white hover:text-indigo-50"
             >
-              Links
+              Resume
             </a>
           </div>
         </div>

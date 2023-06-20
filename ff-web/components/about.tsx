@@ -86,7 +86,7 @@ export const About = () => {
           </div>
           <div className="rounded my-2 md:mx-20 lg:mx-4 flex justify-center border border-double border-gray-100 p-4 bg-gradient-to-r from-blue-800 to-blue-900 text-xl text-gray-300">
             <img
-              src="sethpfp3.jpg"
+              src="tucker.jpg"
               className="rounded object-contain md:h-64 md:w-64"
             />
           </div>

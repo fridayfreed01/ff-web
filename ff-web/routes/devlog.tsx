@@ -15,7 +15,7 @@ export const DevLogPage = () => {
             href="/pointsandpurrs"
             description="A 2D game made with Unity for a Game Design project at UW Madison"
             datetime=""
-            date="Updated 6/14/2023"
+            date="Updated 6/20/2023"
           />
           <Card
             title="Fishing Fantasy"

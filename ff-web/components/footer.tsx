@@ -11,6 +11,9 @@ export const Footer = () => {
         <a href="https://www.linkedin.com/in/seth-freitag-5b1586235/">
           <img className="w-20 h-20" src="/linkedin.png" />
         </a>
+        <a href="https://www.youtube.com/channel/UCkSEs-JTLLZW_z6Ywzz1xVg">
+          <img className="w-20 h-20" src="whiteyoutubelogo.png" />
+        </a>
       </div>
     </div>
   );
