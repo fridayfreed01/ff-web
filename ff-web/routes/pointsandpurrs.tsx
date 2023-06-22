@@ -87,7 +87,7 @@ export const PointsAndPurrs = () => {
               "complete" a project.
             </p>
             <div className="p-4">
-              <img src="/pointsandpurrs/levelselect.png"/>
+              <img src="/pointsandpurrs/levelselect.png" />
             </div>
             <p className="my-4">
               The core of the game is centered around a finite state machine
@@ -112,35 +112,41 @@ export const PointsAndPurrs = () => {
               the enemy character will make some closing remark.
             </p>
             <div className="p-4">
-              <img src="/pointsandpurrs/prebattle.png"/>
+              <img src="/pointsandpurrs/prebattle.png" />
             </div>
             <div className="p-4">
-              <img src="/pointsandpurrs/battle.png"/>
+              <img src="/pointsandpurrs/battle.png" />
             </div>
             <div className="p-4">
-              <img src="/pointsandpurrs/win.png"/>
+              <img src="/pointsandpurrs/win.png" />
             </div>
             <div className="p-4">
-              <img src="/pointsandpurrs/epilogue.png"/>
+              <img src="/pointsandpurrs/epilogue.png" />
             </div>
           </div>
           <div className="rounded border border-double border-gray-100 p-4 bg-gradient-to-r from-blue-800 to-blue-900 text-xl text-gray-300 my-4">
             <p>
-              The AI in the game is very simple, as time limited a lot of what I could learn
-              in that regard. Each enemy in the game has a set of pre-made patterns that are 
-              based off of the turn count. For example, the enemy Peanut will Lunge 3 times
-              in a row and then parry on the 4th turn, then it will reset. I tried to work
-              with Sage on making a reasonable balance of difficulty as you moved forward through the game,
-              but in most cases things can be adjusted in later iterations.
+              The AI in the game is very simple, as time limited a lot of what I
+              could learn in that regard. Each enemy in the game has a set of
+              pre-made patterns that are based off of the turn count. For
+              example, the enemy Peanut will Lunge 3 times in a row and then
+              parry on the 4th turn, then it will reset. I tried to work with
+              Sage on making a reasonable balance of difficulty as you moved
+              forward through the game, but in most cases things can be adjusted
+              in later iterations.
             </p>
           </div>
           <div className="rounded border border-double border-gray-100 p-4 bg-gradient-to-r from-blue-800 to-blue-900 text-xl text-gray-300 my-4">
             <p>
-              Overall, I think what I learned the most from the semester was the beauty of 
-              iterative development and being able to work on a team. It felt pretty unreal
-              how much progress game development could make while working with a team. I expect to
-              update this page more after more development, and it will be noted on the <a href="/" className="hover:underline">main page</a> if 
-              I do!
+              Overall, I think what I learned the most from the semester was the
+              beauty of iterative development and being able to work on a team.
+              It felt pretty unreal how much progress game development could
+              make while working with a team. I expect to update this page more
+              after more development, and it will be noted on the{" "}
+              <a href="/" className="hover:underline">
+                main page
+              </a>{" "}
+              if I do!
             </p>
           </div>
         </div>

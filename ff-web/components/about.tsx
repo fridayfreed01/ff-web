@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Spotify } from "react-spotify-embed";
 
 export const About = () => {
   return (
@@ -96,6 +97,27 @@ export const About = () => {
               className="rounded object-contain  md:h-64 md:w-64"
             />
           </div>
+        </div>
+        <div className="flex lg:justify-start justify-center text-3xl lg:my-4 lg:mt-8 font-bold text-gray-300">
+          Playlists
+        </div>
+        <div className="flex flex-row justify-center">
+          <Spotify
+            link="https://open.spotify.com/playlist/3iu0lkxAthnZA4WRjEIkLx?si=2bbcfb98018f4088"
+            className="mx-4"
+          />
+          <Spotify
+            link="https://open.spotify.com/playlist/3hJdcFgZsBQCiWGg0yhGOx?si=d1c40a2155bf4c19"
+            className="mx-4"
+          />
+          <Spotify
+            link="https://open.spotify.com/playlist/3mjKT8rVD01lfqDEb0gRu5?si=c20492ce5f114755"
+            className="mx-4"
+          />
+          <Spotify
+            link="https://open.spotify.com/playlist/4CWxWWv3jaUYextGHo5syX?si=67571c82c7b94e48"
+            className="mx-4"
+          />
         </div>
       </div>
     </div>

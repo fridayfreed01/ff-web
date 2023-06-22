@@ -28,7 +28,7 @@ export const DevLogPage = () => {
           />
           <Card
             title="Note Taking App"
-            imageUrl=""
+            imageUrl="/codingphoto.jpg"
             category={{ name: "Project", href: "#" }}
             href="/note-taker"
             description="A self-taught note taking app made with C# and MySQL"

@@ -14,7 +14,7 @@ export const Card = (props: any) => {
           <a href={props.href} className="block mt-2">
             <p className="text-xl font-semibold text-gray-300">{props.title}</p>
             <p className="my-3 text-base text-gray-300">{props.description}</p>
-            <img src={props.imageUrl} />
+            <img className="rounded" src={props.imageUrl} />
           </a>
         </div>
         <div className="mt-6 flex items-center">

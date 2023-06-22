@@ -11,14 +11,14 @@ export const IndexPage = () => {
           Recent Posts
         </div>
         <Card
-            title="Points and Purrs"
-            imageUrl="/PointsAndPurrs.png"
-            category={{ name: "Game Project", href: "#" }}
-            href="/pointsandpurrs"
-            description="A 2D game made with Unity for a Game Design project at UW Madison"
-            datetime=""
-            date="Updated 6/20/2023"
-          />
+          title="Points and Purrs"
+          imageUrl="/PointsAndPurrs.png"
+          category={{ name: "Game Project", href: "#" }}
+          href="/pointsandpurrs"
+          description="A 2D game made with Unity for a Game Design project at UW Madison"
+          datetime=""
+          date="Updated 6/20/2023"
+        />
       </div>
       <Footer />
     </div>
