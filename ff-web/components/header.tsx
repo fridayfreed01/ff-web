@@ -21,7 +21,7 @@ export const Header = () => {
             </Link>
             <Link href="/games">
               <a className="text-base font-medium text-white hover:text-indigo-50">
-                Games I&aposm Playing
+                Games I&apos;m Playing
               </a>
             </Link>
 

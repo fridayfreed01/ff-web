@@ -13,11 +13,11 @@ export const About = () => {
             Welcome to my website! My name is Seth Freitag, but on most other
             platforms, I go by FridayFreed. In my free time, I love to play and
             create video games, program, read, and consume coffee daily at an
-            alarming amount. If the site&aposs theme didn&apost give it away, my
+            alarming amount. If the site&apos;s theme didn&apos;t give it away, my
             favorite game series at the moment is Final Fantasy, and my favorite
             genre, more generally, is RPGs.
             <p className="pt-2">
-              I made this site to display my projects, as well as what I&aposm up to
+              I made this site to display my projects, as well as what I&apos;m up to
               in the world of gaming, or just in the regular, physical world.
               Programming is a great passion of mine, as I love all of the
               creative aspects that come with it. Hopefully this site provides a
@@ -41,13 +41,13 @@ export const About = () => {
             development. This love became a passion for front-end and game
             development. In my past, I interned at a small start-up in my
             hometown, Sheboygan Falls, WI, called Rustle Up, where I learned the
-            foundation of my skills in React.js. In my own pursuits, I&aposve taught
-            myself C#, Typescript, and C++, and I&aposve been learning the ins and
-            outs of Unity Engine and Unreal Engine. In addition, I&aposve had the
+            foundation of my skills in React.js. In my own pursuits, I&apos;ve taught
+            myself C#, Typescript, and C++, and I&apos;ve been learning the ins and
+            outs of Unity Engine and Unreal Engine. In addition, I&apos;ve had the
             opportunity to work with Shopbop (Amazon) through a Senior Capstone
             course at UW Madison where I picked up on many common agile
             development methodologies such as Scrum, Kanban, and DevOps. You can
-            see more about the projects and games I&aposve made below.
+            see more about the projects and games I&apos;ve made below.
           </div>
         </div>
         <div className="flex w-full justify-center">

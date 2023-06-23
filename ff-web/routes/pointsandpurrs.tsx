@@ -45,7 +45,7 @@ export const PointsAndPurrs = () => {
             <p>
               Points and Purrs is a turn based game that uses preconstructed
               decks of cards for strategic gameplay. The player must use the
-              cards they are dealt to counter the opponent CPU&aposs strategy and
+              cards they are dealt to counter the opponent CPU&apos;s strategy and
               deal enough damage to win battles and ultimately finish the game.
               These mechanics are expressed through 5 different cards; Lunge,
               Pounce, Parry, Sneak, and Feint.
@@ -79,7 +79,7 @@ export const PointsAndPurrs = () => {
           <div className="rounded border border-double border-gray-100 p-4 bg-gradient-to-r from-blue-800 to-blue-900 text-xl text-gray-300 my-4">
             <p>
               My role, in more depth, was to make sure that the game was
-              playable according to the game designer&aposs vision, as well as
+              playable according to the game designer&apos;s vision, as well as
               managing the GitHub for the project (Sage handled the UI
               programming). The game was built in the Unity 2D engine and
               scripted with C#. While I had made very simple games before using
@@ -95,10 +95,10 @@ export const PointsAndPurrs = () => {
               such: Start, Prebattle, Player, Battle, Cleanup, Win, Lose, and
               Epilogue. Right as the battle starts, the game enters the "Start"
               state, where basic level setup occurs, then it moves to
-              "Prebattle," where the character you&aposre fighting against makes a
+              "Prebattle," where the character you&apos;re fighting against makes a
               quip or remark before battling. Then it switches to the "Player"
               state, where it remains locked until the player plays a card. Once
-              the player plays a card, the enemy AI makes it&aposs choice (more on
+              the player plays a card, the enemy AI makes it&apos;s choice (more on
               that later) and the cards are compared. Based on the image above,
               certain cards have certain outcomes when they are played against
               each other. For example, Pounce deals 3 damage to Lunge. This all
