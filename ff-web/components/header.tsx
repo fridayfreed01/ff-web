@@ -31,12 +31,11 @@ export const Header = () => {
               </a>
             </Link>
 
-            <a
-              href="/resume"
-              className="text-base font-medium text-white hover:text-indigo-50"
-            >
-              Resume
-            </a>
+            <Link href="/resume">
+              <a className="text-base font-medium text-white hover:text-indigo-50">
+                Resume
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
