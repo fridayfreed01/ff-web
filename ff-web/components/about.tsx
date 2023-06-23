@@ -102,22 +102,22 @@ export const About = () => {
         <div className="flex lg:justify-start justify-center text-3xl lg:my-4 my-2 lg:mt-8 font-bold text-gray-300">
           Playlists
         </div>
-        <div className="flex md:flex-row justify-center flex-col">
+        <div className="flex lg:flex-row justify-center flex-col">
           <Spotify
             link="https://open.spotify.com/playlist/3iu0lkxAthnZA4WRjEIkLx?si=2bbcfb98018f4088"
-            className="md:mx-4 md:my-0 my-2 w-full"
+            className="md:mx-4 lg:my-0 my-2 w-full"
           />
           <Spotify
             link="https://open.spotify.com/playlist/3hJdcFgZsBQCiWGg0yhGOx?si=d1c40a2155bf4c19"
-            className="md:mx-4 md:my-0 my-2 w-full"
+            className="md:mx-4 lg:my-0 my-2 w-full"
           />
           <Spotify
             link="https://open.spotify.com/playlist/3mjKT8rVD01lfqDEb0gRu5?si=c20492ce5f114755"
-            className="md:mx-4 md:my-0 my-2 w-full"
+            className="md:mx-4 lg:my-0 my-2 w-full"
           />
           <Spotify
             link="https://open.spotify.com/playlist/4CWxWWv3jaUYextGHo5syX?si=67571c82c7b94e48"
-            className="md:mx-4 md:my-0 my-2 w-full"
+            className="md:mx-4 lg:my-0 my-2 w-full"
           />
         </div>
       </div>
