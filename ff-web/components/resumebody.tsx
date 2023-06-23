@@ -110,7 +110,7 @@ export const ResumeBody = () => {
           <li>Personal game projects: Used C# scripting and Unity Engine</li>
           <li>
             Dog finder demo app: Next.js app for browsing dogs from an API to
-            "like dogs and generate a match
+            &lsquolike&rsquo dogs and generate a match
           </li>
         </ul>
       </div>
