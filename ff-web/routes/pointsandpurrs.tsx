@@ -45,10 +45,10 @@ export const PointsAndPurrs = () => {
             <p>
               Points and Purrs is a turn based game that uses preconstructed
               decks of cards for strategic gameplay. The player must use the
-              cards they are dealt to counter the opponent CPU&apos;s strategy and
-              deal enough damage to win battles and ultimately finish the game.
-              These mechanics are expressed through 5 different cards; Lunge,
-              Pounce, Parry, Sneak, and Feint.
+              cards they are dealt to counter the opponent CPU&apos;s strategy
+              and deal enough damage to win battles and ultimately finish the
+              game. These mechanics are expressed through 5 different cards;
+              Lunge, Pounce, Parry, Sneak, and Feint.
             </p>
             <div className="flex my-4 flex-col lg:flex-row object-contain justify-center">
               <div className="object-contain h-64 w-64 flex justify-center">
@@ -95,21 +95,22 @@ export const PointsAndPurrs = () => {
               such: Start, Prebattle, Player, Battle, Cleanup, Win, Lose, and
               Epilogue. Right as the battle starts, the game enters the "Start"
               state, where basic level setup occurs, then it moves to
-              "Prebattle," where the character you&apos;re fighting against makes a
-              quip or remark before battling. Then it switches to the "Player"
-              state, where it remains locked until the player plays a card. Once
-              the player plays a card, the enemy AI makes it&apos;s choice (more on
-              that later) and the cards are compared. Based on the image above,
-              certain cards have certain outcomes when they are played against
-              each other. For example, Pounce deals 3 damage to Lunge. This all
-              occurs in the "Battle" state. Once the cards have been played, the
-              "Cleanup" state is entered, where the game checks for any state
-              based actions like winning or losing the game. A "Win" state is
-              entered from Cleanup when the enemy has 0 HP remaining. Likewise,
-              the "Loss" state is entered if the player has 0 HP or if the
-              player runs out of cards in their deck. The "Epilogue" state is
-              only entered if the player wins, and similar to the "Prebattle,"
-              the enemy character will make some closing remark.
+              "Prebattle," where the character you&apos;re fighting against
+              makes a quip or remark before battling. Then it switches to the
+              "Player" state, where it remains locked until the player plays a
+              card. Once the player plays a card, the enemy AI makes it&apos;s
+              choice (more on that later) and the cards are compared. Based on
+              the image above, certain cards have certain outcomes when they are
+              played against each other. For example, Pounce deals 3 damage to
+              Lunge. This all occurs in the "Battle" state. Once the cards have
+              been played, the "Cleanup" state is entered, where the game checks
+              for any state based actions like winning or losing the game. A
+              "Win" state is entered from Cleanup when the enemy has 0 HP
+              remaining. Likewise, the "Loss" state is entered if the player has
+              0 HP or if the player runs out of cards in their deck. The
+              "Epilogue" state is only entered if the player wins, and similar
+              to the "Prebattle," the enemy character will make some closing
+              remark.
             </p>
             <div className="p-4">
               <img src="/pointsandpurrs/prebattle.png" />
