@@ -7,7 +7,7 @@ export const Games = () => {
     <div className="flex flex-col h-screen">
       <Header />
       <div className="p-4 h-full w-full bg-[#3a3a3a]">
-        <div className="p-4 lg:px-8 pb-8 flex lg:flex-row flex-col justify-center">
+        <div className="p-4 lg:px-8 pb-8 flex md:flex-row flex-col justify-center">
           <GameCard
             title="Yakuza 6"
             imageUrl="/yakuza6.jpg"

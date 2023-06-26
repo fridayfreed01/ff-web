@@ -7,7 +7,7 @@ export const DevLogPage = () => {
     <div className="flex flex-col h-screen">
       <Header />
       <div className="p-4 pb-4 w-full h-full bg-[#3a3a3a]">
-        <div className="p-4 lg:px-8 pb-8 flex lg:flex-row flex-col">
+        <div className="p-4 lg:px-8 pb-8 flex md:flex-row flex-col">
           <Card
             title="Points and Purrs"
             imageUrl="/PointsAndPurrs.png"
