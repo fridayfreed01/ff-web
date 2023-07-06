@@ -23,6 +23,11 @@ export const Games = () => {
             imageUrl="/ff16.jpg"
             date="Releases 6/22/23"
           />
+          <GameCard
+            title="Judgement"
+            imageUrl="/judgement.jpg"
+            date="(After I beat FF16)"
+          />
         </div>
       </div>
       <Footer />
