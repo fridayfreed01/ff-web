@@ -1,13 +1,15 @@
 import { Header } from "../components/header";
 import { Card } from "../components/card";
 import { Footer } from "../components/footer";
+import { Head } from "../components/head";
 
 export const IndexPage = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div>
+      <Head />
       <Header />
-      <div className="p-6 w-full h-full bg-[#3a3a3a]">
-        <div className="flex justify-center text-2xl font-bold text-gray-300">
+      <div className="p-6 w-full min-h-screen flex flex-grow flex-col bg-[#3a3a3a]">
+        <div className="flex justify-start items-start text-2xl font-bold text-gray-300">
           Recent Posts
         </div>
         <div className="flex md:flex-row flex-col justify-center">

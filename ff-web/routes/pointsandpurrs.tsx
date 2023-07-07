@@ -2,10 +2,12 @@ import Link from "next/link";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 import { ProjectHeader } from "../components/projectheader";
+import { Head } from "../components/head";
 
 export const PointsAndPurrs = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div>
+      <Head />
       <Header />
       <div className="w-full h-full bg-[#3a3a3a] p-10">
         <ProjectHeader
@@ -86,7 +88,7 @@ export const PointsAndPurrs = () => {
               Unity, this was one of the first times I had ever been required to
               "complete" a project.
             </p>
-            <div className="p-4">
+            <div className="p-4 flex justify-center">
               <img src="/pointsandpurrs/levelselect.png" />
             </div>
             <p className="my-4">
@@ -112,16 +114,16 @@ export const PointsAndPurrs = () => {
               to the "Prebattle," the enemy character will make some closing
               remark.
             </p>
-            <div className="p-4">
+            <div className="p-4 flex justify-center">
               <img src="/pointsandpurrs/prebattle.png" />
             </div>
-            <div className="p-4">
+            <div className="p-4 flex justify-center">
               <img src="/pointsandpurrs/battle.png" />
             </div>
-            <div className="p-4">
+            <div className="p-4 flex justify-center">
               <img src="/pointsandpurrs/win.png" />
             </div>
-            <div className="p-4">
+            <div className="p-4 flex justify-center">
               <img src="/pointsandpurrs/epilogue.png" />
             </div>
           </div>

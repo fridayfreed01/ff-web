@@ -2,10 +2,10 @@ export const Card = (props: any) => {
   return (
     <div
       key={props.title}
-      className="flex flex-col flex-shrink-1 flex-wrap md:my-4 mx-2 md:w-1/3 w-full rounded-lg shadow-lg shadow-gray-800 overflow-hidden bg-gradient-to-r from-blue-800 to-blue-900 border border-double border-gray-100 my-2"
+      className="flex flex-col flex-shrink-1 flex-wrap m-5 md:w-1/4 rounded-lg shadow-lg shadow-gray-800 overflow-hidden bg-gradient-to-r from-blue-800 to-blue-900 border border-double border-gray-100"
     >
-      <div className="flex-1 bg-blue p-6 flex flex-col">
-        <div className="flex-1">
+      <div className="p-6 flex flex-col">
+        <div className="">
           <p className="text-sm font-medium text-gray-300">
             <a href={props.category.href} className="hover:underline">
               {props.category.name}

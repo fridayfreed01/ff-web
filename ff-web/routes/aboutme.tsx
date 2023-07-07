@@ -6,7 +6,7 @@ import { Header } from "../components/header";
 export const AboutMe = () => {
   return (
     <div>
-      <Head/>
+      <Head />
       <Header />
       <About />
       <Footer />

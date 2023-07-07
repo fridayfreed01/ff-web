@@ -1,13 +1,15 @@
 import { Header } from "../components/header";
 import { Card } from "../components/card";
 import { Footer } from "../components/footer";
+import { Head } from "../components/head";
 
 export const DevLogPage = () => {
   return (
-    <div className="flex flex-col h-screen">
+    <div>
+      <Head />
       <Header />
-      <div className="p-4 pb-4 w-full h-full bg-[#3a3a3a]">
-        <div className="p-4 lg:px-8 pb-8 flex md:flex-row flex-col">
+      <div className="p-4 pb-4 w-full min-h-screen flex flex-grow bg-[#3a3a3a]">
+        <div className="p-4 h-full flex justify-center lg:px-8 pb-8 md:flex-row flex-col">
           <Card
             title="Points and Purrs"
             imageUrl="/PointsAndPurrs.png"

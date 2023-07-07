@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const ProjectHeader = (props: any) => {
   return (
-    <div>
+    <div className="w-full flex flex-col justify-center items-center">
       <div
         key={props.title}
         className="flex justify-center lg:justify-start text-4xl lg:mb-4 font-bold text-gray-300"
